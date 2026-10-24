@@ -59,11 +59,11 @@ msgstr "SD kart takıldı"
 
 #: src/seedsigner/gui/screens/psbt_screens.py
 msgid "Review Transaction"
-msgstr ""
+msgstr "İşlemi İncele"
 
 #: src/seedsigner/gui/screens/psbt_screens.py
 msgid "Review details"
-msgstr ""
+msgstr "Ayrıntıları incele"
 
 #: src/seedsigner/gui/screens/psbt_screens.py
 msgid "1 input"
@@ -125,11 +125,11 @@ msgstr "para üstü"
 
 #: src/seedsigner/gui/screens/psbt_screens.py
 msgid "Transaction Math"
-msgstr ""
+msgstr "İşlem Hesabı"
 
 #: src/seedsigner/gui/screens/psbt_screens.py
 msgid "Review recipients"
-msgstr ""
+msgstr "Alıcıları incele"
 
 #: src/seedsigner/gui/screens/psbt_screens.py
 msgid "input"
@@ -163,7 +163,7 @@ msgstr "alım adresi"
 #. Symbol for index number, e.g. "address #3"
 #: src/seedsigner/gui/screens/psbt_screens.py
 msgid "#"
-msgstr ""
+msgstr "#"
 
 #: src/seedsigner/gui/screens/psbt_screens.py
 msgid "Address verified!"
@@ -176,7 +176,7 @@ msgstr "ham onaltılık veri"
 
 #: src/seedsigner/gui/screens/psbt_screens.py
 msgid "Sign Transaction"
-msgstr ""
+msgstr "İşlemi İmzala"
 
 #: src/seedsigner/gui/screens/psbt_screens.py
 msgid "Click to approve this transaction"
@@ -224,7 +224,7 @@ msgstr "Gizlilik İhlali!"
 
 #: src/seedsigner/gui/screens/screen.py
 msgid "I understand"
-msgstr ""
+msgstr "Anladım"
 
 #: src/seedsigner/gui/screens/screen.py
 msgid "Classified Info!"
@@ -293,7 +293,7 @@ msgstr "Türetme Yolu"
 #: src/seedsigner/gui/screens/seed_screens.py
 #: src/seedsigner/views/seed_views.py
 msgid "Export xpub"
-msgstr ""
+msgstr "Xpub'ı dışa aktar"
 
 #: src/seedsigner/gui/screens/seed_screens.py
 msgid "Xpub Details"
@@ -436,7 +436,7 @@ msgstr "Adresi Onayla"
 #: src/seedsigner/gui/screens/seed_screens.py
 #: src/seedsigner/views/seed_views.py
 msgid "Sign message"
-msgstr ""
+msgstr "Mesajı imzala"
 
 #: src/seedsigner/gui/screens/seed_screens.py
 msgid "derivation path"
@@ -502,7 +502,7 @@ msgstr "Ana Sayfa"
 
 #: src/seedsigner/gui/screens/tools_screens.py
 msgid "click a button"
-msgstr ""
+msgstr "bir düğmeye tıklayın"
 
 #. A prompt to the user to either accept or reshoot the image
 #: src/seedsigner/gui/screens/tools_screens.py
@@ -609,17 +609,17 @@ msgstr "Gerekli"
 #. QR code format option; "default" = this is the format most wallets use
 #: src/seedsigner/models/settings_definition.py
 msgid "Animated (default)"
-msgstr ""
+msgstr "Animasyonlu (vars.)"
 
 #. QR code format option (static = single frame, not animated)
 #: src/seedsigner/models/settings_definition.py
 msgid "Static"
-msgstr ""
+msgstr "Sabit"
 
 #. QR code format option: old format that Specter Desktop used to use
 #: src/seedsigner/models/settings_definition.py
 msgid "Specter legacy"
-msgstr ""
+msgstr "Specter eski tip"
 
 #: src/seedsigner/models/settings_definition.py
 msgid "BTC"
@@ -717,13 +717,13 @@ msgstr "Özel Türetme"
 #. MicroSD notification duration setting - Display notification for 5 seconds
 #: src/seedsigner/models/settings_definition.py
 msgid "5 seconds"
-msgstr ""
+msgstr "5 saniye"
 
 #. MicroSD notification duration setting - Display notification until the SD
 #. card is removed
 #: src/seedsigner/models/settings_definition.py
 msgid "Until SD removed"
-msgstr ""
+msgstr "SD çıkarılana kadar"
 
 #. Terminology used by Electrum seeds; equivalent to BIP-39 passphrase
 #: src/seedsigner/models/settings_definition.py
@@ -764,7 +764,7 @@ msgstr "Betik türleri"
 
 #: src/seedsigner/models/settings_definition.py
 msgid "Xpub QR format"
-msgstr ""
+msgstr "Xpub QR formatı"
 
 #: src/seedsigner/models/settings_definition.py
 msgid "Show xpub details"
@@ -796,7 +796,7 @@ msgstr "Sadece Native Segwit"
 
 #: src/seedsigner/models/settings_definition.py
 msgid "MicroSD notification duration"
-msgstr ""
+msgstr "MicroSD bildirim süresi"
 
 #: src/seedsigner/models/settings_definition.py
 msgid "Message signing"
@@ -822,12 +822,12 @@ msgstr "Ortak logolarını göster"
 #. ili9341)
 #: src/seedsigner/models/settings_definition.py
 msgid "Display type"
-msgstr ""
+msgstr "Ekran türü"
 
 #. Hardware settings option to invert how the screen driver displays colors.
 #: src/seedsigner/models/settings_definition.py
 msgid "Invert colors"
-msgstr ""
+msgstr "Renkleri ters çevir"
 
 #: src/seedsigner/models/settings_definition.py
 msgid "QR background color"
@@ -876,6 +876,8 @@ msgid ""
 "Transaction has unsupported input script type, please verify your change "
 "addresses."
 msgstr ""
+"İşlem desteklenmeyen bir girdi betik türü içeriyor; para üstü "
+"adreslerinizi doğrulayın."
 
 #: src/seedsigner/views/psbt_views.py src/seedsigner/views/view.py
 msgid "Continue"
@@ -892,6 +894,8 @@ msgid ""
 "This transaction spends its entire input value. No change is coming back to "
 "your wallet."
 msgstr ""
+"Bu işlem girdi değerinin tamamını harcıyor. Cüzdanınıza para üstü "
+"dönmeyecek."
 
 #. Future-tense used to indicate that this transaction will send this amount,
 #. as opposed to "Send" on its own which could be misread as an instant
@@ -903,15 +907,15 @@ msgstr "Gönderilecek"
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Next recipient"
-msgstr ""
+msgstr "Sonraki alıcı"
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Skip verification"
-msgstr ""
+msgstr "Doğrulamayı atla"
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Verify multisig change"
-msgstr ""
+msgstr "Para üstünü doğrula"
 
 #. The amount you're receiving back from the transaction
 #: src/seedsigner/views/psbt_views.py
@@ -924,7 +928,7 @@ msgstr "Kendine Transfer"
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Verify multisig addr"
-msgstr ""
+msgstr "Çoklu imza doğrula"
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Verifying Change..."
@@ -937,16 +941,16 @@ msgstr "Kendine Transfer Doğrulanıyor..."
 #. Variable is either "change" or "self-transfer".
 #: src/seedsigner/views/psbt_views.py
 msgid "Transaction's {} address could not be verified from wallet descriptor."
-msgstr ""
+msgstr "İşlemin {} adresi tanımlayıcıdan doğrulanamadı."
 
 #. Variable is either "change" or "self-transfer".
 #: src/seedsigner/views/psbt_views.py
 msgid "Transaction's {} address could not be generated from your seed."
-msgstr ""
+msgstr "İşlemin {} adresi tohumunuzdan oluşturulamadı."
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Suspicious Transaction"
-msgstr ""
+msgstr "Şüpheli İşlem"
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Address Verification Failed"
@@ -954,19 +958,19 @@ msgstr "Adres Doğrulama Başarısız"
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Discard transaction"
-msgstr ""
+msgstr "İşlemi reddet"
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Approve transaction"
-msgstr ""
+msgstr "İşlemi onayla"
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Select different seed"
-msgstr ""
+msgstr "Başka tohum seç"
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Transaction Error"
-msgstr ""
+msgstr "İşlem Hatası"
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Signing Failed"
@@ -990,11 +994,11 @@ msgstr "Yanlış QR Türü"
 
 #: src/seedsigner/views/scan_views.py
 msgid "Scan Transaction"
-msgstr ""
+msgstr "İşlemi Tara"
 
 #: src/seedsigner/views/scan_views.py
 msgid "Expected a transaction"
-msgstr ""
+msgstr "Bir işlem bekleniyordu"
 
 #: src/seedsigner/views/scan_views.py
 msgid "Scan SeedQR"
@@ -1030,7 +1034,7 @@ msgstr "QR kodu geçersiz veya henüz desteklenmeyen bir veri formatı."
 
 #: src/seedsigner/views/scan_views.py src/seedsigner/views/view.py
 msgid "Back to Main Menu"
-msgstr ""
+msgstr "Ana Menüye Dön"
 
 #. This is on the opening splash screen, displayed above the HRF logo
 #: src/seedsigner/views/screensaver.py
@@ -1075,7 +1079,7 @@ msgstr "Bir tohum oluştur"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Load a Seed"
-msgstr ""
+msgstr "Bir Tohum Yükle"
 
 #. Inserts the word number (e.g. "Seed Word #6")
 #: src/seedsigner/views/seed_views.py
@@ -1084,7 +1088,7 @@ msgstr "Tohum Kelimesi #{}"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Review & edit"
-msgstr ""
+msgstr "İncele ve düzenle"
 
 #: src/seedsigner/views/seed_views.py src/seedsigner/views/tools_views.py
 msgid "Discard"
@@ -1112,7 +1116,7 @@ msgstr "Parolayı iptal et"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Skip passphrase"
-msgstr ""
+msgstr "Parolayı atla"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Discard passphrase?"
@@ -1120,19 +1124,19 @@ msgstr "Parola iptal edilsin mi?"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Your current passphrase entry will be erased."
-msgstr ""
+msgstr "Girdiğiniz mevcut parola silinecek."
 
 #: src/seedsigner/views/seed_views.py
 msgid "Skip passphrase?"
-msgstr ""
+msgstr "Parola atlansın mı?"
 
 #: src/seedsigner/views/seed_views.py
 msgid "You have not entered a passphrase yet."
-msgstr ""
+msgstr "Henüz bir parola girmediniz."
 
 #: src/seedsigner/views/seed_views.py
 msgid "Keep seed"
-msgstr ""
+msgstr "Tohumu tut"
 
 #. Inserts the seed fingerprint
 #: src/seedsigner/views/seed_views.py
@@ -1145,7 +1149,7 @@ msgstr "Tohum İptal Edilsin mi?"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Electrum Warning"
-msgstr ""
+msgstr "Electrum Uyarısı"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Some features are disabled for Electrum seeds."
@@ -1153,27 +1157,27 @@ msgstr "Bazı özellikler Electrum tohumları için devre dışı bırakılmış
 
 #: src/seedsigner/views/seed_views.py
 msgid "Scan transaction"
-msgstr ""
+msgstr "İşlemi tara"
 
 #: src/seedsigner/views/seed_views.py src/seedsigner/views/tools_views.py
 msgid "Address explorer"
-msgstr ""
+msgstr "Adres gezgini"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Backup seed"
-msgstr ""
+msgstr "Tohumu yedekle"
 
 #: src/seedsigner/views/seed_views.py
 msgid "BIP-85 child seed"
-msgstr ""
+msgstr "BIP-85 alt tohum"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Discard seed"
-msgstr ""
+msgstr "Tohumu sil"
 
 #: src/seedsigner/views/seed_views.py
 msgid "View seed words"
-msgstr ""
+msgstr "Tohum kelimelerini gör"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Export as SeedQR"
@@ -1189,7 +1193,7 @@ msgstr "Xpub'ı Dışa Aktar"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Xpub QR Format"
-msgstr ""
+msgstr "Xpub QR Formatı"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Xpub can be used to view all future transactions."
@@ -1240,7 +1244,7 @@ msgstr "BIP-85 Alt İndeks 0 ile 2^31-1 arasında olmalıdır."
 
 #: src/seedsigner/views/seed_views.py
 msgid "Try again"
-msgstr ""
+msgstr "Tekrar dene"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Verify"
@@ -1257,7 +1261,7 @@ msgstr "Kelime #{}'i Doğrula"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Review seed words"
-msgstr ""
+msgstr "Kelimeleri incele"
 
 #. Inserts the word number and the word (e.g. "Word #1 is not "apple"!")
 #: src/seedsigner/views/seed_views.py
@@ -1360,16 +1364,16 @@ msgstr "İptal"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Return to transaction"
-msgstr ""
+msgstr "İşleme dön"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Verify addr"
-msgstr ""
+msgstr "Adresi doğrula"
 
 #. Multisig policy. For a "2 of 3" policy, "threshold" = 2; "n" = 3
 #: src/seedsigner/views/seed_views.py
 msgid "{threshold} of {n}"
-msgstr ""
+msgstr "{threshold} / {n}"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Signing messages for custom derivation paths not supported"
@@ -1381,7 +1385,7 @@ msgstr "Gelişmiş"
 
 #: src/seedsigner/views/settings_views.py
 msgid "Hardware"
-msgstr ""
+msgstr "Donanım"
 
 #: src/seedsigner/views/settings_views.py
 msgid "I/O test"
@@ -1395,19 +1399,19 @@ msgstr "Geliştirici Seçenekleri"
 #. one option to be selected.
 #: src/seedsigner/views/settings_views.py
 msgid "Selection Required"
-msgstr ""
+msgstr "Seçim Gerekli"
 
 #. The name of the setting being configured (e.g. "Script types") will be
 #. inserted.
 #: src/seedsigner/views/settings_views.py
 msgid "At least one option must be selected for \"{}\"."
-msgstr ""
+msgstr "\"{}\" için en az bir seçenek seçilmelidir."
 
 #. Text for the button that returns the user to the setting configuration
 #. screen.
 #: src/seedsigner/views/settings_views.py
 msgid "Return to setting"
-msgstr ""
+msgstr "Ayara dön"
 
 #: src/seedsigner/views/settings_views.py
 msgid "Persistent Settings enabled. Settings saved to SD card."
@@ -1427,7 +1431,7 @@ msgstr "12./24. kelimeyi hesapla"
 
 #: src/seedsigner/views/tools_views.py
 msgid "Verify address"
-msgstr ""
+msgstr "Adresi doğrula"
 
 #: src/seedsigner/views/tools_views.py src/seedsigner/views/view.py
 msgid "Tools"
@@ -1447,7 +1451,7 @@ msgstr "Anımsatıcı Uzunluğu"
 
 #: src/seedsigner/views/tools_views.py
 msgid "Calculating..."
-msgstr ""
+msgstr "Hesaplanıyor..."
 
 #. Inserts the number of dice rolls needed for a 12-word mnemonic
 #: src/seedsigner/views/tools_views.py
@@ -1490,17 +1494,17 @@ msgstr "Cüzdan tanımlayıcısını tara"
 #. label for addresses where others send us incoming payments
 #: src/seedsigner/views/tools_views.py
 msgid "Receive addresses"
-msgstr ""
+msgstr "Alım adresleri"
 
 #. label for addresses that collect the change from our own outgoing payments
 #: src/seedsigner/views/tools_views.py
 msgid "Change addresses"
-msgstr ""
+msgstr "Para üstü adresleri"
 
 #. Multisig policy. For a "2 / 3 multisig" policy, "threshold" = 2; "n" = 3
 #: src/seedsigner/views/tools_views.py
 msgid "{threshold} / {n} multisig"
-msgstr ""
+msgstr "{threshold} / {n} çoklu imza"
 
 #. a status message that our payment addresses are being calculated
 #: src/seedsigner/views/tools_views.py
@@ -1537,7 +1541,7 @@ msgstr "Yeniden Başlat"
 
 #: src/seedsigner/views/view.py
 msgid "Power off"
-msgstr ""
+msgstr "Kapat"
 
 #: src/seedsigner/views/view.py
 msgid "Reset / Power"
@@ -1557,7 +1561,7 @@ msgstr "Henüz Uygulanmadı"
 
 #: src/seedsigner/views/view.py
 msgid "Back to main menu"
-msgstr ""
+msgstr "Ana menüye dön"
 
 #. The network setting (mainnet/testnet/regtest) doesn't match the provided
 #. derivation path
@@ -1573,7 +1577,7 @@ msgstr "Ayarı Değiştir"
 #. "network" will be mainnet/testnet/regtest.
 #: src/seedsigner/views/view.py
 msgid "Current network setting ({network}) doesn't match {derivation_path}."
-msgstr ""
+msgstr "Mevcut ağ ayarı ({network}) {derivation_path} ile eşleşmiyor."
 
 #: src/seedsigner/views/view.py
 msgid "System Error"
@@ -1581,19 +1585,19 @@ msgstr "Sistem Hatası"
 
 #: src/seedsigner/views/view.py
 msgid "Hardware Error"
-msgstr ""
+msgstr "Donanım Hatası"
 
 #: src/seedsigner/views/view.py
 msgid "Cannot access camera"
-msgstr ""
+msgstr "Kameraya erişilemiyor"
 
 #: src/seedsigner/views/view.py
 msgid "Disconnect power and check for a loose camera connection."
-msgstr ""
+msgstr "Gücü kesin ve gevşek bir kamera bağlantısı olup olmadığını kontrol edin."
 
 #: src/seedsigner/views/view.py
 msgid "Update setting"
-msgstr ""
+msgstr "Ayarı güncelle"
 
 #. Inserts the name of a settings option (e.g. "Persistent Settings" is
 #. currently...)
@@ -1607,10 +1611,12 @@ msgstr "Seçenek Devre Dışı"
 
 #: src/seedsigner/views/view.py
 msgid "Action Required"
-msgstr ""
+msgstr "Eylem Gerekli"
 
 #: src/seedsigner/views/view.py
 msgid ""
 "You must remove the\n"
 "MicroSD card to continue."
 msgstr ""
+"Devam etmek için\n"
+"MicroSD kartı çıkarmalısınız."

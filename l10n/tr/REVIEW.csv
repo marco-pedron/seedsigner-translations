@@ -1,0 +1,82 @@
+msgid,msgstr,note
+Review Transaction,İşlemi İncele,HIGH - signing: transaction review
+Review details,Ayrıntıları incele,HIGH - signing: transaction review
+Transaction Math,İşlem Hesabı,HIGH - signing: amounts summary screen title
+Review recipients,Alıcıları incele,HIGH - signing: transaction review
+Sign Transaction,İşlemi İmzala,HIGH - signing
+I understand,Anladım,HIGH - acknowledges a security warning
+Sign message,Mesajı imzala,HIGH - signing
+"Transaction has unsupported input script type, please verify your change addresses.",İşlem desteklenmeyen bir girdi betik türü içeriyor; para üstü adreslerinizi doğrulayın.,HIGH - signing / address verification warning
+This transaction spends its entire input value. No change is coming back to your wallet.,Bu işlem girdi değerinin tamamını harcıyor. Cüzdanınıza para üstü dönmeyecek.,HIGH - signing: full-spend warning
+Skip verification,Doğrulamayı atla,HIGH - address verification: skipping it is a risk
+Verify multisig change,Para üstünü doğrula,"HIGH - address verification: shortened for the 240px button, 'multisig' dropped (screen context is multisig)"
+Verify multisig addr,Çoklu imza doğrula,"HIGH - address verification: shortened, 'adres' dropped"
+Transaction's {} address could not be verified from wallet descriptor.,İşlemin {} adresi tanımlayıcıdan doğrulanamadı.,HIGH - address verification failure; {} becomes 'para üstü' or 'kendine transfer'
+Transaction's {} address could not be generated from your seed.,İşlemin {} adresi tohumunuzdan oluşturulamadı.,HIGH - address verification failure; {} becomes 'para üstü' or 'kendine transfer'
+Suspicious Transaction,Şüpheli İşlem,HIGH - signing: warning title
+Discard transaction,İşlemi reddet,HIGH - signing: chose 'reddet' (reject) over 'iptal et'
+Approve transaction,İşlemi onayla,HIGH - signing: the user approves spending
+Skip passphrase,Parolayı atla,HIGH - passphrase: existing entries translate passphrase as 'parola'
+Your current passphrase entry will be erased.,Girdiğiniz mevcut parola silinecek.,HIGH - passphrase
+Skip passphrase?,Parola atlansın mı?,HIGH - passphrase
+You have not entered a passphrase yet.,Henüz bir parola girmediniz.,HIGH - passphrase
+Keep seed,Tohumu tut,HIGH - seed: keep it loaded in memory
+Backup seed,Tohumu yedekle,HIGH - seed backup
+Discard seed,Tohumu sil,HIGH - seed: 'sil' (delete); existing 'Discard' entries use 'İptal Et'
+View seed words,Tohum kelimelerini gör,HIGH - seed backup
+Review seed words,Kelimeleri incele,"HIGH - seed backup: shortened to 'Kelimeleri incele', 'tohum' dropped"
+Verify addr,Adresi doğrula,HIGH - address verification
+Verify address,Adresi doğrula,HIGH - address verification
+Receive addresses,Alım adresleri,HIGH - address verification: 'alım' follows existing 'Alım Adresleri'
+Change addresses,Para üstü adresleri,HIGH - address verification: 'para üstü' follows existing 'Para Üstü Adresleri'
+Current network setting ({network}) doesn't match {derivation_path}.,Mevcut ağ ayarı ({network}) {derivation_path} ile eşleşmiyor.,HIGH - wrong network can show wrong addresses
+Export xpub,Xpub'ı dışa aktar,MEDIUM - navigation/error text: privacy: xpub reveals wallet history
+Next recipient,Sonraki alıcı,MEDIUM - navigation/error text
+Select different seed,Başka tohum seç,MEDIUM - navigation/error text
+Transaction Error,İşlem Hatası,MEDIUM - navigation/error text
+Scan Transaction,İşlemi Tara,MEDIUM - navigation/error text
+Expected a transaction,Bir işlem bekleniyordu,MEDIUM - navigation/error text
+Back to Main Menu,Ana Menüye Dön,MEDIUM - navigation/error text
+Load a Seed,Bir Tohum Yükle,MEDIUM - navigation/error text
+Review & edit,İncele ve düzenle,MEDIUM - navigation/error text
+Electrum Warning,Electrum Uyarısı,MEDIUM - navigation/error text: warning title
+Scan transaction,İşlemi tara,MEDIUM - navigation/error text
+Address explorer,Adres gezgini,MEDIUM - navigation/error text
+BIP-85 child seed,BIP-85 alt tohum,MEDIUM - navigation/error text
+Try again,Tekrar dene,MEDIUM - navigation/error text
+Return to transaction,İşleme dön,MEDIUM - navigation/error text
+{threshold} of {n},{threshold} / {n},"MEDIUM - navigation/error text: multisig policy, e.g. '2 / 3'; avoids the number-dependent suffix of '3'te 2'"
+Selection Required,Seçim Gerekli,MEDIUM - navigation/error text
+"At least one option must be selected for ""{}"".","""{}"" için en az bir seçenek seçilmelidir.",MEDIUM - navigation/error text
+Return to setting,Ayara dön,MEDIUM - navigation/error text
+Calculating...,Hesaplanıyor...,MEDIUM - navigation/error text
+{threshold} / {n} multisig,{threshold} / {n} çoklu imza,MEDIUM - navigation/error text: multisig policy
+Power off,Kapat,MEDIUM - navigation/error text
+Back to main menu,Ana menüye dön,MEDIUM - navigation/error text
+Hardware Error,Donanım Hatası,MEDIUM - navigation/error text
+Cannot access camera,Kameraya erişilemiyor,MEDIUM - navigation/error text
+Disconnect power and check for a loose camera connection.,Gücü kesin ve gevşek bir kamera bağlantısı olup olmadığını kontrol edin.,MEDIUM - navigation/error text
+Update setting,Ayarı güncelle,MEDIUM - navigation/error text
+Action Required,Eylem Gerekli,"MEDIUM - navigation/error text: 'Eylem' used to avoid 'İşlem', which means transaction elsewhere"
+"You must remove the
+MicroSD card to continue.","Devam etmek için
+MicroSD kartı çıkarmalısınız.",MEDIUM - navigation/error text
+#,#,"LOW - setting/label: index symbol, e.g. 'address #3'"
+click a button,bir düğmeye tıklayın,LOW - setting/label
+Animated (default),Animasyonlu (vars.),LOW - setting/label: abbreviated 'vars.' to fit the 240px option button
+Static,Sabit,LOW - setting/label
+Specter legacy,Specter eski tip,LOW - setting/label: follows existing 'Legacy' => 'Eski Tip'
+5 seconds,5 saniye,LOW - setting/label
+Until SD removed,SD çıkarılana kadar,LOW - setting/label
+Xpub QR format,Xpub QR formatı,LOW - setting/label
+MicroSD notification duration,MicroSD bildirim süresi,LOW - setting/label
+Display type,Ekran türü,LOW - setting/label
+Invert colors,Renkleri ters çevir,LOW - setting/label
+Xpub QR Format,Xpub QR Formatı,LOW - setting/label
+Hardware,Donanım,LOW - setting/label
+change address,iade adresi,EXISTING (not changed) - HIGH: 'iade' means refund; other entries use 'para üstü adresi'
+Discard Seed?,Tohum İptal Edilsin mi?,EXISTING (not changed) - HIGH: 'iptal' means cancel; the action wipes the seed from memory
+Discard,İptal Et,"EXISTING (not changed) - MEDIUM: discard vs cancel, same as above"
+BIP-39 passphrase,BIP-39 parola,EXISTING (not changed) - MEDIUM: other entries use 'BIP-39 Parolası'
+Native Segwit only,Sadece Native Segwit,EXISTING (not changed) - LOW: 'Native Segwit' is 'Yerel Segwit' elsewhere
+Never photograph or scan it into a device that connects to the internet.,Asla internete bağlanan bir cihaza fotoğrafını çekmeyin veya taratmayın.,"EXISTING (not changed) - HIGH: SeedQR safety warning, please check the wording"
